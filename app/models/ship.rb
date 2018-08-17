@@ -10,11 +10,13 @@ class Ship
     @height = params[:booty]
     SHIPS << self
   end
-type
+
   def self.all
     SHIPS
   end
 
+  def self.clear
+    self.all.clear
+  end
 
-  
 end
