@@ -9,3 +9,12 @@ module FormsLab
 
   end
 end
+
+
+      # params[:pirate][name]
+      # params[:pirate][weight]
+      # params[:pirate][height]
+      #
+      # params[:pirate][ships][][name]
+      # params[:pirate][ships][][type]
+      # params[:pirate][ships][][booty]
