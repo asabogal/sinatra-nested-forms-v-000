@@ -5,9 +5,9 @@ class Ship
   attr_accessor :name, :type, :booty
 
   def initialize(args)
-    @name = params[:name]
-    @weight = params[:type]
-    @height = params[:booty]
+    @name = args[:name]
+    @weight = args[:type]
+    @height = args[:booty]
     SHIPS << self
   end
 
