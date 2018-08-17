@@ -9,7 +9,6 @@ module FormsLab
     end
 
     get '/new' do
-
       erb :"/pirates/new"
     end
 
