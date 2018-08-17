@@ -8,7 +8,7 @@ module FormsLab
     end
 
     post '/' do
-      
+      @pirate = Pirate.new(params[:student])
     end
 
   end
